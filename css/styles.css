@@ -845,6 +845,10 @@ margin-bottom: 4px;
 
 }
 
+.input-checkbox:focus + .label-checkbox span {
+  border-color: #d00ed0;  
+}
+
 
 .input-checkbox:checked + .label-checkbox span{
  background-color:  var(--color-ocean);
