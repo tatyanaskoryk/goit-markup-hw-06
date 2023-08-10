@@ -19,11 +19,11 @@
 
 .container { 
 /* width: 1158px; */
-width: 100%;
-max-width: 1158px;
-margin: 0 auto;
+max-width: 428px;
 padding-left: 15px; 
 padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 
 }
  
@@ -220,6 +220,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
         .advantages{
             /* padding: 120px 0; */
             padding: 96px 0;
+            
             }
 
 .advantages-subtitle{color:var(--color-grey);
@@ -256,7 +257,7 @@ letter-spacing: 0.02em;
     .advantages-item
     /* {width: calc((100% - 24*3px) / 4); */
     /* } */
-
+{max-width: 396px;}
 
     .advantages-icon{
        display: flex; 
