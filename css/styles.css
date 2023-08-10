@@ -18,10 +18,12 @@
 }
 
 .container { 
-width: 1158px;
-margin:0 auto;
-padding-left:15px; 
-padding-right:15px; 
+/* width: 1158px; */
+width: 100%;
+max-width: 1158px;
+margin: 0 auto;
+padding-left: 15px; 
+padding-right: 15px; 
   
 }
  
@@ -215,30 +217,43 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
         /*------------------ SECTION-TWO----------------- */
 
         .advantages{
-            padding: 120px 0;
+            /* padding: 120px 0; */
+            padding: 96px 0;
         }
 
 .advantages-subtitle{color:var(--color-grey);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
+    /* font-size: 20px; */
+    font-size: 36px;
+    /* font-weight: 500; */
+    font-weight: 700;
+
+    /* line-height: 1.2; */
+    line-height: 1.1;
     letter-spacing: 0.02em;
+    /* letter-spacing: 0.02em; */
+    text-transform: capitalize;
     margin-bottom:8px;}
 
 
 .advantages-text{
 
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+    /* letter-spacing: 0.02em; */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;}
 
     .advantages-list{
         display:flex;
-        gap: 24px;  
+        /* gap: 24px;  */
+        gap: 72px;
+        flex-wrap: wrap; 
     }
     .advantages-item
-    {width: calc((100% - 72px) / 4);
-    }
+    /* {width: calc((100% - 72px) / 4); */
+    /* } */
 
     .advantages-icon{
        display: flex; 
@@ -247,7 +262,8 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
           height: 112px;
          background-color: var(--color-cloud);
         border-radius: 4px;
-          margin-bottom: 8px;  
+          margin-bottom: 8px; 
+          display: none; 
     }
 
     /* SECTION------THREE----DOING----- */
