@@ -273,7 +273,7 @@ margin-bottom: 32px;
 }
 
 .mob-header-menu-list{
-    margin-bottom: 100px;
+    margin-bottom: 280px;
 
 }
 
@@ -281,6 +281,31 @@ margin-bottom: 32px;
     margin-bottom: 40px;
 
 }
+.mob-header-tel-link{
+    display: block;
+    margin-bottom: 40px;
+    color: var(--color-iris);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize
+
+}
+
+
+.mob-header-address-link{
+    display: block;
+    margin-bottom: 40px;
+color: var(--color-slate);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;}
+
+
 
 .mob-header-menu-link{
 color: var(--color-ocean);
@@ -323,37 +348,7 @@ min-height: 40px;
 .mob-team-soc{
 
 }
-                       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
+                                  
 
         /*------------------ SECTION-TWO----------------- */
 
@@ -739,7 +734,7 @@ input::placeholder
     margin-left: 16px;
 }
 .subscribe{
-     margin-left: 80px;
+     /* margin-left: 80px; */
 }
 
 
