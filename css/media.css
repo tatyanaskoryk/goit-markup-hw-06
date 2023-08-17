@@ -20,7 +20,6 @@ max-width: 428px;
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-    
     }
 
 .customers-item{
@@ -43,8 +42,24 @@ height: 88px;
 
 .header-address-list
 {display:block;
+    gap: 12px;
 
 }
+
+.header-address-link{
+color: var(--color-slate);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+letter-spacing: 0.04em;
+
+}
+
+.header-logo{
+    margin-right: 76px;
+}
+
 
     .main-one-title{color:var(--color-white);
         text-align: center;
@@ -86,6 +101,7 @@ height: 88px;
 .section-one {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(../images/peopleofficetab.jpg);
+padding: 112px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -97,11 +113,34 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleofficetab2x.jpg);
     }
  }
 
+
+.advantages-subtitle{
+ text-align: left;
+}
+
+ .advantages-text{
+     text-align: left;
+     font-weight: 500;
+ }
+
+
+.customers{
+    width: 584px;
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    width: calc((100% - 24*2) / 3);
+
+}
+
 .footer-container{
- max-width: 768px;}
+ 
+}
 
 } 
-    
+ 
+
+/*  --------------MIN-1158--------------------------------------- */
 
 @media screen and (min-width: 1158px) {
 
@@ -125,7 +164,7 @@ gap: 40px;
 }
 
    .advantages-item
-    {width: calc((100% - 24*3px) / 4);
+    {width: calc((100% - 24*3) / 4);
     }
 
     .advantages-list{
@@ -138,6 +177,7 @@ gap: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 .advantages-subtitle{
@@ -145,6 +185,7 @@ gap: 40px;
     font-weight: 500;
     line-height: 1.2;
  letter-spacing: 0.02em;
+
     
 }
 
@@ -167,7 +208,17 @@ gap: 40px;
 }
 
  .icon-social:hover, .icon-social:focus {background-color: #404bbf;}
-    
+ 
+ 
+ 
+.customers{
+    width: 1158px;
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    /* width: calc((100% - 24*5) / 6); */
+
+}
 
 .customers-item{
 width: calc((100% - 120px) / 6);
@@ -258,8 +309,15 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice2x.jpg);}
 
 .footer{
     background: var(--color-navy-blue-modal);
-    padding: 100px 0;}
+    padding: 100px 0;
+      display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+
+ 
 .footer-container{
     display: flex;
     align-items: baseline;
@@ -397,7 +455,7 @@ input::placeholder
     margin-left: 16px;
 }
 .subscribe{
-     margin-left: 80px;
+     /* margin-left: 80px; */
 }
 
 
