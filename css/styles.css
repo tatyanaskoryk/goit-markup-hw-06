@@ -150,6 +150,7 @@ display: none;}
 .header-html {
 display:flex;
 align-items: center;
+padding: 24px 0 24px 0; ;
 }
    
     
@@ -601,6 +602,7 @@ height: 88px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
  
  
 
@@ -704,7 +706,7 @@ height: 88px;
 
 .subscribe-input 
 {
-    width: 398px;
+    width: 300px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
