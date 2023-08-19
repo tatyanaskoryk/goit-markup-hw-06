@@ -190,8 +190,8 @@ border-color: var(--color-cornflower);
 .section-one {
     background-color:var(--color-navy-blue-modal);
     /* padding: 188px 0; */
-    /* padding: 112px 54px 72px 54px; */
-     padding: 112px 72px;
+
+     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(../images/peopleofficemob.jpg);
     /* max-width: 1440px; */
@@ -285,7 +285,7 @@ z-index: 20;
  padding: 32px;  
  display: flex; 
  flex-direction: column;
- /* justify-content:space-around; */
+ /* justify-content: space-around; */
  overflow: auto;
 
 }
@@ -353,6 +353,8 @@ gap: 56px;
  }
             
  .mob-team-item-social{
+    /* display:flex; */
+  
 width: 40px;
 min-height: 40px;
 
@@ -613,7 +615,7 @@ height: 88px;
 .footer{
     background: var(--color-navy-blue-modal);
     /* padding: 100px 0; */
-    padding: 97.5px 15px 96px 15px;
+    padding: 96px 0;
     /* justify-content: center; */
   
 }
@@ -774,7 +776,7 @@ input::placeholder
 
 /* ----------------HEADER------------------------------- */
 
-/* .header-address-link {color:var(--color-slate);
+.header-address-link {color:var(--color-slate);
 
     font-size: 16px;
     font-weight: 400;
@@ -785,7 +787,7 @@ input::placeholder
  .container-nav-portfolio{
     display:flex;
    align-items: center; 
- } */
+ }
 
 /* MAIN SECTION-----BUTTONS---------------------- */
 .button-all {

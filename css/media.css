@@ -1,9 +1,21 @@
 
 
-@media  screen and (max-width: 340px) {
+@media  screen and (max-width: 426px) {
     .modal-window{
         width: 320px;
     }
+
+.mob-header-tel-link {
+    font-size: 24px;
+}
+
+
+.mob-team-social
+ {
+display: flex;
+gap: 24px;
+ }
+
 }
 
 
@@ -13,6 +25,13 @@
 
 }
 
+.footer-container-webstudio{
+ /* margin-right: 120px; */
+ display: flex;
+ flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
 
 
 .subscribe-input{
@@ -73,6 +92,7 @@ padding-right: 0;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
+  margin-bottom: 80.6px;
 }
 
 
@@ -91,7 +111,7 @@ padding-right: 0;
 }
 
 .footer-text{
-    margin-bottom: 80.6px;
+    /* margin-bottom: 80.6px; */
     
 }
 .footer-social{
@@ -197,7 +217,7 @@ letter-spacing: 0.04em;
 .section-one {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(../images/peopleofficetab.jpg);
-padding: 112px;
+padding: 112px 0;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -229,11 +249,13 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleofficetab2x.jpg);
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 584px;
+    gap: 72px 24px;
 }
 
 .footer-container-webstudio{
-    margin-bottom: 72px;
-    margin-right: 24px;
+
+    
 }
 
 
@@ -263,8 +285,17 @@ max-width: 584px;
 }
 
 .header-address-list{
+    display: flex;
+    flex-direction: column;
     gap:12px;
+
 }
+
+
+.footer-container-webstudio{
+    margin-bottom: 72px;
+}
+
 
 }
 
@@ -286,6 +317,27 @@ padding: 0;
 gap: 40px;
 }
 
+
+/* ПОРТФОЛІО------ХЕДЕР---------------СТАРТ */
+
+/* .header-menu-link {color:var(--color-grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   
+    display:block;
+     position: relative;
+    color: var(--color-navyblue);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);} */
+
+
+.container-nav-porfolio
+{
+    padding: 0;
+}
+
+/* ПОРТФОЛІО--------------ХЕДЕР---------------ЕНД */
 
 .header-address-link{
  color: var(--color-slate);
@@ -510,6 +562,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice2x.jpg);}
     align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: unset;
 }
 
 .footer-container-webstudio{
