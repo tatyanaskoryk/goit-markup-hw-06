@@ -50,6 +50,11 @@ padding-right: 16px;
 }
 
 
+.container-nav-portfolio{
+   padding-left: 16px;
+padding-right: 16px; 
+}
+
 .mob-header-menu-link.color.link
 {
     color: #2E2F42;
@@ -152,9 +157,13 @@ height: 88px;
 
    .header-html{
     padding: 0 16px 0 16px;
-/* padding-left: 16px;
-padding-right: 16px; */
+
    }
+
+.container-nav-portfolio{
+    padding: 0 16px 0 16px;}
+
+   
 
 .header-address-list
 {display:block;

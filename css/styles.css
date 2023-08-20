@@ -155,7 +155,7 @@ display: none;}
 .header-html {
 display:flex;
 align-items: center;
-padding: 24px 0 24px 0; ;
+padding: 24px 0 24px 0; 
 }
    
     
@@ -786,7 +786,8 @@ input::placeholder
 
  .container-nav-portfolio{
     display:flex;
-   align-items: center; 
+   align-items: center;
+padding: 24px 0 24px 0; 
  }
 
 /* MAIN SECTION-----BUTTONS---------------------- */
